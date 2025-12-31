@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Minha Viagem</title>
+    <style>
+        /* Reset básico para margens e paddings */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Corpo da página */
+        body {
+            font-family: Arial, sans-serif;
+            color: #fff;
+        }
+
+        /* Estilo do banner */
+        .banner {
+            background-image: url('https://via.placeholder.com/1920x500/87CEEB/FFFFFF?text=Vilarejo+Europeu');
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .banner h1 {
+            font-size: 3rem;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 1rem;
+            border-radius: 5px;
+        }
+
+        /* Navegação */
+        nav {
+            background-color: #333;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.2rem;
+            padding: 10px 15px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #ff6347;
+            border-radius: 5px;
+        }
+
+        /* Seções */
+        section {
+            padding: 60px 20px;
+            text-align: center;
+            min-height: 100vh;
+        }
+
+        section#home {
+            background-color: #282c34;
+        }
+
+        section#tripme {
+            background-color: #f4a261;
+        }
+
+        section#meetus {
+            background-color: #2a9d8f;
+        }
+
+        section#advice {
+            background-color: #e9c46a;
+        }
+
+        section#nosencontre {
+            background-color: #264653;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#tripme">TripMe</a></li>
+            <li><a href="#meetus">MeetUs</a></li>
+            <li><a href="#advice">Advice</a></li>
+            <li><a href="#nosencontre">NosEncontre</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home" class="banner">
+            <h1>Bem-vindo ao Vilarejo Europeu</h1>
+        </section>
+
+        <section id="tripme">
+            <h2>TripMe</h2>
+            <p>Explore destinos incríveis e planeje sua viagem com a gente, descubra lugares únicos para visitar e se apaixonar.</p>
+        </section>
+
+        <section id="meetus">
+            <h2>MeetUs</h2>
+            <p>Conheça nossa equipe apaixonada por viagens e pronta para ajudar você a planejar a sua próxima aventura.</p>
+        </section>
+
+        <section id="advice">
+            <h2>Advice</h2>
+            <p>Confira dicas e truques para viajar com mais conforto e segurança, prepare-se para a melhor experiência de viagem.</p>
+        </section>
+
+        <section id="nosencontre">
+            <h2>NosEncontre</h2>
+            <p>Estamos localizados em várias partes do mundo, entre em contato conosco e descubra como podemos ajudar na sua jornada.</p>
+        </section>
+    </main>
+
+</body>
+</html>
